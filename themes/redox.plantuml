@@ -1,0 +1,47 @@
+!define RedoxBlack #001f17
+
+!define RedoxGrey1 #4b4d4f
+!define RedoxGrey2 #707476
+!define RedoxGrey3 #bcc2c6
+!define RedoxGrey4 #d7dadd
+!define RedoxGrey5 #eaeced
+
+!define RedoxGrey6 #f5f6f7
+
+!define RedoxGreen #00b388
+!define RedoxBlue #5e6ba4
+!define RedoxRed #dc5034
+!define RedoxNavy #2c314a
+!define RedoxTeal #054d55
+!define RedoxCoral #f7b6ab
+
+!define RedoxYellow #ffae03
+
+!define RedoxGreenWhite #f6fbfa
+
+!define RedoxMint #85d2c0
+!define RedoxLime #c0e75a
+
+!define RedoxMint1 #226265
+!define RedoxMint2 #3c7e7c
+!define RedoxMint3 RedoxMint
+!define RedoxMint4 #c4e9e0
+!define RedoxMint5 #9bb8bb
+
+!define RedoxGreen1 #008162
+!define RedoxGreen2 #009773
+!define RedoxGreen3 RedoxGreen
+!define RedoxGreen4 #00cc9b
+!define RedoxGreen5 #00e3ac
+
+!define RedoxBlue1 #485176
+!define RedoxBlue2 #515c8e
+!define RedoxBlue3 RedoxBlue
+!define RedoxBlue4 #6d7dc3
+!define RedoxBlue5 #7586ce
+
+!define RedoxRed1 #a43a25
+!define RedoxRed2 #c0462d
+!define RedoxRed3 RedoxRed
+!define RedoxRed4 #e6654d
+!define RedoxRed5 #ef826c
