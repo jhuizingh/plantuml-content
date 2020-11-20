@@ -1,3 +1,4 @@
+@startuml redoxtheme
 !define RedoxBlack #001f17
 
 !define RedoxGrey1 #4b4d4f
@@ -194,3 +195,5 @@ skinparam usecase {
   BorderColor LinesOverFillColor
   FontColor TextOverFillColor
 }
+
+@enduml
