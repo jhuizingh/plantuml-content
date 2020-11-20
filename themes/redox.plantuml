@@ -46,7 +46,16 @@
 !define RedoxRed4 #e6654d
 !define RedoxRed5 #ef826c
 
-
+!define CanvasColor RedoxGrey4
+!define FillColor RedoxGreen
+!define FillColorAlt RedoxMint3
+!define TextOverFillColor RedoxGreenWhite
+!define TextOverFillColorAlt RedoxGreen1
+!define TextOverBackgroundColor RedoxBlue2
+!define TextOverBackgroundColorAlt RedoxTeal
+!define LinesOverFillColor RedoxTeal
+!define LinesOverFillColorAlt RedoxRed
+!define LinesOverBackgroundColor RedoxRed
 
 skinparam BackgroundColor CanvasColor
 skinparam DefaultFontColor TextOverFillColor
