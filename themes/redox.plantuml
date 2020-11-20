@@ -45,3 +45,143 @@
 !define RedoxRed3 RedoxRed
 !define RedoxRed4 #e6654d
 !define RedoxRed5 #ef826c
+
+
+
+skinparam BackgroundColor CanvasColor
+skinparam DefaultFontColor TextOverFillColor
+skinparam TitleFontColor TextOverBackgroundColor
+skinparam ArrowColor LinesOverBackgroundColor
+skinparam ArrowFontColor TextOverBackgroundColor
+
+skinparam note {
+  BackgroundColor FillColorAlt
+  BorderColor LinesOverFillColorAlt
+  FontColor TextOverFillColorAlt
+}
+
+skinparam actor {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverBackgroundColor
+}
+
+skinparam agent {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam artifact {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam boundary {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverBackgroundColor
+}
+
+skinparam card {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam cloud {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam component {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam control {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverBackgroundColor
+}
+
+skinparam database {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam entity {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverBackgroundColor
+}
+
+skinparam file {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam folder {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam frame {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam interface {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverBackgroundColor
+}
+
+skinparam node {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam package {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam queue {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam stack {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam rectangle {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam storage {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
+
+skinparam usecase {
+  BackgroundColor FillColor
+  BorderColor LinesOverFillColor
+  FontColor TextOverFillColor
+}
