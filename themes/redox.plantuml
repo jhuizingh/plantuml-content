@@ -1,199 +1,199 @@
 @startuml redoxtheme
-!define RedoxBlack #001f17
+!$RedoxBlack = "#001f17"
 
-!define RedoxGrey1 #4b4d4f
-!define RedoxGrey2 #707476
-!define RedoxGrey3 #bcc2c6
-!define RedoxGrey4 #d7dadd
-!define RedoxGrey5 #eaeced
+!$RedoxGrey1 = "#4b4d4f"
+!$RedoxGrey2 = "#707476"
+!$RedoxGrey3 = "#bcc2c6"
+!$RedoxGrey4 = "#d7dadd"
+!$RedoxGrey5 = "#eaeced"
 
-!define RedoxGrey6 #f5f6f7
+!$RedoxGrey6 = "#f5f6f7"
 
-!define RedoxGreen #00b388
-!define RedoxBlue #5e6ba4
-!define RedoxRed #dc5034
-!define RedoxNavy #2c314a
-!define RedoxTeal #054d55
-!define RedoxCoral #f7b6ab
+!$RedoxGreen = "#00b388"
+!$RedoxBlue = "#5e6ba4"
+!$RedoxRed = "#dc5034"
+!$RedoxNavy = "#2c314a"
+!$RedoxTeal = "#054d55"
+!$RedoxCoral = "#f7b6ab"
 
-!define RedoxYellow #ffae03
+!$RedoxYellow = "#ffae03"
 
-!define RedoxGreenWhite #f6fbfa
+!$RedoxGreenWhite = "#f6fbfa"
 
-!define RedoxMint #85d2c0
-!define RedoxLime #c0e75a
+!$RedoxMint = "#85d2c0"
+!$RedoxLime = "#c0e75a"
 
-!define RedoxMint1 #226265
-!define RedoxMint2 #3c7e7c
-!define RedoxMint3 RedoxMint
-!define RedoxMint4 #c4e9e0
-!define RedoxMint5 #9bb8bb
+!$RedoxMint1 = "#226265"
+!$RedoxMint2 = "#3c7e7c"
+!$RedoxMint3 = $RedoxMint
+!$RedoxMint4 = "#c4e9e0"
+!$RedoxMint5 = "#9bb8bb"
 
-!define RedoxGreen1 #008162
-!define RedoxGreen2 #009773
-!define RedoxGreen3 RedoxGreen
-!define RedoxGreen4 #00cc9b
-!define RedoxGreen5 #00e3ac
+!$RedoxGreen1 = "#008162"
+!$RedoxGreen2 = "#009773"
+!$RedoxGreen3 = $RedoxGreen
+!$RedoxGreen4 = "#00cc9b"
+!$RedoxGreen5 = "#00e3ac"
 
-!define RedoxBlue1 #485176
-!define RedoxBlue2 #515c8e
-!define RedoxBlue3 RedoxBlue
-!define RedoxBlue4 #6d7dc3
-!define RedoxBlue5 #7586ce
+!$RedoxBlue1 = "#485176"
+!$RedoxBlue2 = "#515c8e"
+!$RedoxBlue3 = $RedoxBlue
+!$RedoxBlue4 = "#6d7dc3"
+!$RedoxBlue5 = "#7586ce"
 
-!define RedoxRed1 #a43a25
-!define RedoxRed2 #c0462d
-!define RedoxRed3 RedoxRed
-!define RedoxRed4 #e6654d
-!define RedoxRed5 #ef826c
+!$RedoxRed1 = "#a43a25"
+!$RedoxRed2 = "#c0462d"
+!$RedoxRed3 = $RedoxRed
+!$RedoxRed4 = "#e6654d"
+!$RedoxRed5 = "#ef826c"
 
-!define CanvasColor RedoxGrey4
-!define FillColor RedoxGreen
-!define FillColorAlt RedoxMint3
-!define TextOverFillColor RedoxGreenWhite
-!define TextOverFillColorAlt RedoxGreen1
-!define TextOverBackgroundColor RedoxBlue2
-!define TextOverBackgroundColorAlt RedoxTeal
-!define LinesOverFillColor RedoxTeal
-!define LinesOverFillColorAlt RedoxRed
-!define LinesOverBackgroundColor RedoxRed
+!$CanvasColor = $RedoxGrey4
+!$FillColor = $RedoxGreen
+!$FillColorAlt = $RedoxMint3
+!$TextOverFillColor = $RedoxGreenWhite
+!$TextOverFillColorAlt = $RedoxGreen1
+!$TextOverBackgroundColor = $RedoxBlue2
+!$TextOverBackgroundColorAlt = $RedoxTeal
+!$LinesOverFillColor = $RedoxTeal
+!$LinesOverFillColorAlt = $RedoxRed
+!$LinesOverBackgroundColor = $RedoxRed
 
-skinparam BackgroundColor CanvasColor
-skinparam DefaultFontColor TextOverFillColor
-skinparam TitleFontColor TextOverBackgroundColor
-skinparam ArrowColor LinesOverBackgroundColor
-skinparam ArrowFontColor TextOverBackgroundColor
+skinparam BackgroundColor $CanvasColor
+skinparam DefaultFontColor $TextOverFillColor
+skinparam TitleFontColor $TextOverBackgroundColor
+skinparam ArrowColor $LinesOverBackgroundColor
+skinparam ArrowFontColor $TextOverBackgroundColor
 
 skinparam note {
-  BackgroundColor FillColorAlt
-  BorderColor LinesOverFillColorAlt
-  FontColor TextOverFillColorAlt
+  BackgroundColor $FillColorAlt
+  BorderColor $LinesOverFillColorAlt
+  FontColor $TextOverFillColorAlt
 }
 
 skinparam actor {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverBackgroundColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverBackgroundColor
 }
 
 skinparam agent {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam artifact {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam boundary {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverBackgroundColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverBackgroundColor
 }
 
 skinparam card {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam cloud {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam component {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam control {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverBackgroundColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverBackgroundColor
 }
 
 skinparam database {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam entity {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverBackgroundColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverBackgroundColor
 }
 
 skinparam file {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam folder {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam frame {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam interface {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverBackgroundColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverBackgroundColor
 }
 
 skinparam node {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam package {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam queue {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam stack {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam rectangle {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam storage {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 skinparam usecase {
-  BackgroundColor FillColor
-  BorderColor LinesOverFillColor
-  FontColor TextOverFillColor
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverFillColor
 }
 
 @enduml
