@@ -1,67 +1,21 @@
-@startuml redoxtheme
-!$RedoxBlack = "#001f17"
 
-!$RedoxGrey1 = "#4b4d4f"
-!$RedoxGrey2 = "#707476"
-!$RedoxGrey3 = "#bcc2c6"
-!$RedoxGrey4 = "#d7dadd"
-!$RedoxGrey5 = "#eaeced"
-
-!$RedoxGrey6 = "#f5f6f7"
-
-!$RedoxGreen = "#00b388"
-!$RedoxBlue = "#5e6ba4"
-!$RedoxRed = "#dc5034"
-!$RedoxNavy = "#2c314a"
-!$RedoxTeal = "#054d55"
-!$RedoxCoral = "#f7b6ab"
-
-!$RedoxYellow = "#ffae03"
-
-!$RedoxGreenWhite = "#f6fbfa"
-
-!$RedoxMint = "#85d2c0"
-!$RedoxLime = "#c0e75a"
-
-!$RedoxMint1 = "#226265"
-!$RedoxMint2 = "#3c7e7c"
-!$RedoxMint3 = $RedoxMint
-!$RedoxMint4 = "#c4e9e0"
-!$RedoxMint5 = "#9bb8bb"
-
-!$RedoxGreen1 = "#008162"
-!$RedoxGreen2 = "#009773"
-!$RedoxGreen3 = $RedoxGreen
-!$RedoxGreen4 = "#00cc9b"
-!$RedoxGreen5 = "#00e3ac"
-
-!$RedoxBlue1 = "#485176"
-!$RedoxBlue2 = "#515c8e"
-!$RedoxBlue3 = $RedoxBlue
-!$RedoxBlue4 = "#6d7dc3"
-!$RedoxBlue5 = "#7586ce"
-
-!$RedoxRed1 = "#a43a25"
-!$RedoxRed2 = "#c0462d"
-!$RedoxRed3 = $RedoxRed
-!$RedoxRed4 = "#e6654d"
-!$RedoxRed5 = "#ef826c"
-
-!$CanvasColor = $RedoxGrey4
-!$FillColor = $RedoxGreen
-!$FillColorAlt = $RedoxMint3
-!$TextOverFillColor = $RedoxGreenWhite
-!$TextOverFillColorAlt = $RedoxGreen1
-!$TextOverBackgroundColor = $RedoxBlue2
-!$LinesOverFillColor = $RedoxTeal
-!$LinesOverFillColorAlt = $RedoxRed
+!$CanvasColor = $RedoxTeal
+!$FillColor = $RedoxGreen1
+!$FillColorAlt = $RedoxGrey2
+!$TextOverFillColor = $RedoxMint4
+!$TextOverFillColorAlt = $RedoxMint4
+!$TextOverBackgroundColor = $RedoxBlue5
+!$LinesOverFillColor = $RedoxMint
+!$LinesOverFillColorAlt = $RedoxMint2
 !$LinesOverBackgroundColor = $RedoxRed
+
 
 skinparam BackgroundColor $CanvasColor
 skinparam DefaultFontColor $TextOverFillColor
 skinparam TitleFontColor $TextOverBackgroundColor
 skinparam ArrowColor $LinesOverBackgroundColor
 skinparam ArrowFontColor $TextOverBackgroundColor
+
 
 skinparam note {
   BackgroundColor $FillColorAlt
@@ -194,5 +148,3 @@ skinparam usecase {
   BorderColor $LinesOverFillColor
   FontColor $TextOverFillColor
 }
-
-@enduml
