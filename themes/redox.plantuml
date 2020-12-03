@@ -63,6 +63,12 @@ skinparam TitleFontColor $TextOverBackgroundColor
 skinparam ArrowColor $LinesOverBackgroundColor
 skinparam ArrowFontColor $TextOverBackgroundColor
 
+skinparam class {
+  BackgroundColor $FillColor
+  BorderColor $LinesOverFillColor
+  FontColor $TextOverBackgroundColor
+}
+
 skinparam activity {
   BackgroundColor $FillColor
   BorderColor $LinesOverFillColor
