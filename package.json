@@ -1,0 +1,22 @@
+{
+  "name": "plantuml-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "plantuml:start-server": "docker run --rm -d --name plantuml-server -p 8080:8080 plantuml/plantuml-server",
+    "plantuml:stop-server": "docker stop plantuml-server",
+    "plantuml:generate": "docker build --tag=local-plantuml -f ./design/Dockerfile.plantuml-cli . && docker run --rm  -v $PWD/design:/design local-plantuml \"/design/*.plantuml\" -o /design/images -v"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhuizingh/plantuml-content.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhuizingh/plantuml-content/issues"
+  },
+  "homepage": "https://github.com/jhuizingh/plantuml-content#readme"
+}
