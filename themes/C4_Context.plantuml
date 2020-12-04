@@ -9,8 +9,10 @@
 
 !define PERSON_BG_COLOR $RedoxGreen2
 !define EXTERNAL_PERSON_BG_COLOR $RedoxGrey2
-!define SYSTEM_BG_COLOR $RedoxGreen5
+!define SYSTEM_BG_COLOR $RedoxGreen4
 !define EXTERNAL_SYSTEM_BG_COLOR $RedoxGrey3
+
+skinparam LegendFontColor Black
 
 ' Styling
 ' ##################################
